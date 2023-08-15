@@ -1,0 +1,150 @@
+.NotFound {
+  margin-top: 40px;
+  margin-left: 77px;
+  color: #333;
+  font-family: Inconsolata;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -1.92px;
+  text-transform: uppercase;
+}
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 50px 15px;
+  color: #111135;
+  display: flex;
+}
+.img,
+.imgContainer {
+  width: 539px;
+  height: 447px;
+  flex-shrink: 0;
+}
+.text-container {
+  margin: 0 40px;
+  display: flex;
+  flex-direction: column;
+}
+.title-text {
+  color: var(--gray-1, #333);
+  font-family: Space Mono;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -2.24px;
+}
+.parrafo-text {
+  color: var(--gray-2, #4f4f4f);
+  font-family: Space Mono;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.84px;
+}
+.button {
+  width: 167px;
+  height: 24px;
+  padding: 17px;
+  flex-shrink: 0;
+  background: var(--gray-1, #333);
+  color: #fff;
+  font-family: Space Mono;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.49px;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+}
+.ppg-container {
+    padding: 1rem;
+}
+.ppg-text {
+  color: #bdbdbd;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.ppg-username {
+  color: #bdbdbd;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration-line: underline;
+}
+@media screen and (max-width: 858px) {
+  .container {
+    padding: 50px 0;
+    display: block !important;
+  }
+  .container .img,
+  .imgContainer {
+    max-width: 300px !important;
+    margin: auto;
+    width: 287px;
+    height: 238px;
+  }
+
+  .NotFound {
+    color: #333;
+    font-family: Inconsolata;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -1.92px;
+    text-transform: uppercase;
+    margin-top: 37px;
+    margin-left: 27px;
+  }
+  .title-text {
+    color: var(--gray-1, #333);
+    font-family: Space Mono;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -1.68px;
+  }
+  .parrafo-text {
+    color: var(--gray-2, #4f4f4f);
+    font-family: Space Mono;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.63px;
+  }
+  #habilidades {
+    padding: 50px 15px;
+  }
+  #habilidades .fila {
+    display: block !important;
+  }
+  #habilidades .fila .servicio {
+    margin: 45px auto;
+  }
+  #contacto {
+    padding: 50px 15px;
+  }
+  #contacto .contenedor-form .mitad {
+    margin-bottom: 15px;
+    display: block;
+  }
+  #contacto .contenedor-form .mitad input {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+}
